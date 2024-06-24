@@ -1,0 +1,11 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.11.9
+  - python-dotenv=1.0
+  - pillow=10.3
+  - pip:
+    - azure-ai-formrecognizer==3.3.*
+    - pymupdf==1.24.*
